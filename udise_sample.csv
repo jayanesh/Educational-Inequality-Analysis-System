@@ -1,0 +1,11 @@
+State,District,Year,Boys_Enrollment,Girls_Enrollment,Total_Enrollment,Dropout_Rate_Primary,Dropout_Rate_Secondary,Pupil_Teacher_Ratio,Electricity_Percent,Drinking_Water_Percent
+Bihar,Patna,2022,450000,420000,870000,4.5,15.2,45,78,85
+Bihar,Gaya,2022,310000,280000,590000,5.8,18.5,50,65,70
+Kerala,Ernakulam,2022,210000,215000,425000,0.2,1.5,20,100,100
+Kerala,Wayanad,2022,85000,87000,172000,0.5,2.8,22,98,99
+Maharashtra,Pune,2022,520000,490000,1010000,1.2,6.5,30,95,98
+Maharashtra,Gadchiroli,2022,120000,105000,225000,3.5,12.4,40,70,75
+Uttar Pradesh,Lucknow,2022,600000,550000,1150000,3.8,11.2,38,88,92
+Uttar Pradesh,Balrampur,2022,250000,210000,460000,6.2,19.8,48,55,60
+Rajasthan,Jaipur,2022,480000,440000,920000,2.5,9.8,32,90,95
+Rajasthan,Barmer,2022,220000,180000,400000,5.1,16.5,42,60,65

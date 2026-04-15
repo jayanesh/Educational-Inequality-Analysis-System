@@ -1,0 +1,717 @@
+{
+  "dataset_info": {
+    "source": "UDISE+ Representative Schema",
+    "description": "District-wise educational metrics sample for India",
+    "metrics_included": ["total_schools", "total_students", "total_teachers", "pupil_teacher_ratio", "electricity_access_percent"]
+  },
+  "data": [
+    {
+      "state_ut": "Andaman and Nicobar Islands",
+      "districts": [
+        {
+          "district_name": "Nicobars",
+          "total_schools": 124,
+          "total_students": 8500,
+          "total_teachers": 650,
+          "pupil_teacher_ratio": 13.0,
+          "electricity_access_percent": 98.5
+        },
+        {
+          "district_name": "South Andaman",
+          "total_schools": 215,
+          "total_students": 32000,
+          "total_teachers": 1800,
+          "pupil_teacher_ratio": 17.7,
+          "electricity_access_percent": 100.0
+        }
+      ]
+    },
+    {
+      "state_ut": "Andhra Pradesh",
+      "districts": [
+        {
+          "district_name": "Anantapur",
+          "total_schools": 4210,
+          "total_students": 510000,
+          "total_teachers": 19500,
+          "pupil_teacher_ratio": 26.1,
+          "electricity_access_percent": 95.2
+        },
+        {
+          "district_name": "Chittoor",
+          "total_schools": 4850,
+          "total_students": 490000,
+          "total_teachers": 21000,
+          "pupil_teacher_ratio": 23.3,
+          "electricity_access_percent": 96.0
+        },
+        {
+          "district_name": "Visakhapatnam",
+          "total_schools": 3950,
+          "total_students": 450000,
+          "total_teachers": 18200,
+          "pupil_teacher_ratio": 24.7,
+          "electricity_access_percent": 94.5
+        }
+      ]
+    },
+    {
+      "state_ut": "Arunachal Pradesh",
+      "districts": [
+        {
+          "district_name": "Tawang",
+          "total_schools": 110,
+          "total_students": 6200,
+          "total_teachers": 580,
+          "pupil_teacher_ratio": 10.6,
+          "electricity_access_percent": 65.0
+        },
+        {
+          "district_name": "Papum Pare",
+          "total_schools": 280,
+          "total_students": 25000,
+          "total_teachers": 1400,
+          "pupil_teacher_ratio": 17.8,
+          "electricity_access_percent": 82.5
+        }
+      ]
+    },
+    {
+      "state_ut": "Assam",
+      "districts": [
+        {
+          "district_name": "Kamrup Metropolitan",
+          "total_schools": 1500,
+          "total_students": 280000,
+          "total_teachers": 11500,
+          "pupil_teacher_ratio": 24.3,
+          "electricity_access_percent": 92.0
+        },
+        {
+          "district_name": "Nagaon",
+          "total_schools": 2800,
+          "total_students": 420000,
+          "total_teachers": 13000,
+          "pupil_teacher_ratio": 32.3,
+          "electricity_access_percent": 85.5
+        }
+      ]
+    },
+    {
+      "state_ut": "Bihar",
+      "districts": [
+        {
+          "district_name": "Patna",
+          "total_schools": 4100,
+          "total_students": 1200000,
+          "total_teachers": 25000,
+          "pupil_teacher_ratio": 48.0,
+          "electricity_access_percent": 88.0
+        },
+        {
+          "district_name": "Gaya",
+          "total_schools": 3200,
+          "total_students": 850000,
+          "total_teachers": 16000,
+          "pupil_teacher_ratio": 53.1,
+          "electricity_access_percent": 82.0
+        },
+        {
+          "district_name": "Muzaffarpur",
+          "total_schools": 3000,
+          "total_students": 780000,
+          "total_teachers": 14500,
+          "pupil_teacher_ratio": 53.7,
+          "electricity_access_percent": 84.5
+        }
+      ]
+    },
+    {
+      "state_ut": "Chandigarh",
+      "districts": [
+        {
+          "district_name": "Chandigarh",
+          "total_schools": 230,
+          "total_students": 150000,
+          "total_teachers": 6500,
+          "pupil_teacher_ratio": 23.0,
+          "electricity_access_percent": 100.0
+        }
+      ]
+    },
+    {
+      "state_ut": "Chhattisgarh",
+      "districts": [
+        {
+          "district_name": "Raipur",
+          "total_schools": 2100,
+          "total_students": 350000,
+          "total_teachers": 12000,
+          "pupil_teacher_ratio": 29.1,
+          "electricity_access_percent": 97.0
+        },
+        {
+          "district_name": "Bastar",
+          "total_schools": 1800,
+          "total_students": 180000,
+          "total_teachers": 7500,
+          "pupil_teacher_ratio": 24.0,
+          "electricity_access_percent": 78.5
+        }
+      ]
+    },
+    {
+      "state_ut": "Dadra and Nagar Haveli and Daman and Diu",
+      "districts": [
+        {
+          "district_name": "Daman",
+          "total_schools": 95,
+          "total_students": 25000,
+          "total_teachers": 900,
+          "pupil_teacher_ratio": 27.7,
+          "electricity_access_percent": 100.0
+        }
+      ]
+    },
+    {
+      "state_ut": "Delhi",
+      "districts": [
+        {
+          "district_name": "New Delhi",
+          "total_schools": 180,
+          "total_students": 95000,
+          "total_teachers": 4500,
+          "pupil_teacher_ratio": 21.1,
+          "electricity_access_percent": 100.0
+        },
+        {
+          "district_name": "South West Delhi",
+          "total_schools": 450,
+          "total_students": 320000,
+          "total_teachers": 12500,
+          "pupil_teacher_ratio": 25.6,
+          "electricity_access_percent": 100.0
+        }
+      ]
+    },
+    {
+      "state_ut": "Goa",
+      "districts": [
+        {
+          "district_name": "North Goa",
+          "total_schools": 650,
+          "total_students": 110000,
+          "total_teachers": 5500,
+          "pupil_teacher_ratio": 20.0,
+          "electricity_access_percent": 100.0
+        },
+        {
+          "district_name": "South Goa",
+          "total_schools": 580,
+          "total_students": 95000,
+          "total_teachers": 5000,
+          "pupil_teacher_ratio": 19.0,
+          "electricity_access_percent": 100.0
+        }
+      ]
+    },
+    {
+      "state_ut": "Gujarat",
+      "districts": [
+        {
+          "district_name": "Ahmedabad",
+          "total_schools": 2800,
+          "total_students": 850000,
+          "total_teachers": 28000,
+          "pupil_teacher_ratio": 30.3,
+          "electricity_access_percent": 99.5
+        },
+        {
+          "district_name": "Surat",
+          "total_schools": 2200,
+          "total_students": 750000,
+          "total_teachers": 24000,
+          "pupil_teacher_ratio": 31.2,
+          "electricity_access_percent": 99.8
+        }
+      ]
+    },
+    {
+      "state_ut": "Haryana",
+      "districts": [
+        {
+          "district_name": "Gurugram",
+          "total_schools": 1100,
+          "total_students": 320000,
+          "total_teachers": 15000,
+          "pupil_teacher_ratio": 21.3,
+          "electricity_access_percent": 100.0
+        },
+        {
+          "district_name": "Faridabad",
+          "total_schools": 950,
+          "total_students": 280000,
+          "total_teachers": 12000,
+          "pupil_teacher_ratio": 23.3,
+          "electricity_access_percent": 100.0
+        }
+      ]
+    },
+    {
+      "state_ut": "Himachal Pradesh",
+      "districts": [
+        {
+          "district_name": "Shimla",
+          "total_schools": 1800,
+          "total_students": 110000,
+          "total_teachers": 7500,
+          "pupil_teacher_ratio": 14.6,
+          "electricity_access_percent": 98.0
+        },
+        {
+          "district_name": "Kangra",
+          "total_schools": 2200,
+          "total_students": 150000,
+          "total_teachers": 9000,
+          "pupil_teacher_ratio": 16.6,
+          "electricity_access_percent": 99.0
+        }
+      ]
+    },
+    {
+      "state_ut": "Jammu and Kashmir",
+      "districts": [
+        {
+          "district_name": "Srinagar",
+          "total_schools": 950,
+          "total_students": 180000,
+          "total_teachers": 8000,
+          "pupil_teacher_ratio": 22.5,
+          "electricity_access_percent": 95.0
+        },
+        {
+          "district_name": "Jammu",
+          "total_schools": 1400,
+          "total_students": 220000,
+          "total_teachers": 10500,
+          "pupil_teacher_ratio": 20.9,
+          "electricity_access_percent": 97.5
+        }
+      ]
+    },
+    {
+      "state_ut": "Jharkhand",
+      "districts": [
+        {
+          "district_name": "Ranchi",
+          "total_schools": 2500,
+          "total_students": 450000,
+          "total_teachers": 14000,
+          "pupil_teacher_ratio": 32.1,
+          "electricity_access_percent": 88.0
+        },
+        {
+          "district_name": "Dhanbad",
+          "total_schools": 1800,
+          "total_students": 380000,
+          "total_teachers": 11000,
+          "pupil_teacher_ratio": 34.5,
+          "electricity_access_percent": 90.5
+        }
+      ]
+    },
+    {
+      "state_ut": "Karnataka",
+      "districts": [
+        {
+          "district_name": "Bengaluru Urban",
+          "total_schools": 4500,
+          "total_students": 1200000,
+          "total_teachers": 55000,
+          "pupil_teacher_ratio": 21.8,
+          "electricity_access_percent": 100.0
+        },
+        {
+          "district_name": "Mysuru",
+          "total_schools": 2100,
+          "total_students": 320000,
+          "total_teachers": 14000,
+          "pupil_teacher_ratio": 22.8,
+          "electricity_access_percent": 98.5
+        }
+      ]
+    },
+    {
+      "state_ut": "Kerala",
+      "districts": [
+        {
+          "district_name": "Ernakulam",
+          "total_schools": 1200,
+          "total_students": 450000,
+          "total_teachers": 22000,
+          "pupil_teacher_ratio": 20.4,
+          "electricity_access_percent": 100.0
+        },
+        {
+          "district_name": "Thiruvananthapuram",
+          "total_schools": 1100,
+          "total_students": 380000,
+          "total_teachers": 19000,
+          "pupil_teacher_ratio": 20.0,
+          "electricity_access_percent": 100.0
+        }
+      ]
+    },
+    {
+      "state_ut": "Ladakh",
+      "districts": [
+        {
+          "district_name": "Leh",
+          "total_schools": 350,
+          "total_students": 18000,
+          "total_teachers": 1500,
+          "pupil_teacher_ratio": 12.0,
+          "electricity_access_percent": 85.0
+        },
+        {
+          "district_name": "Kargil",
+          "total_schools": 420,
+          "total_students": 22000,
+          "total_teachers": 1800,
+          "pupil_teacher_ratio": 12.2,
+          "electricity_access_percent": 82.0
+        }
+      ]
+    },
+    {
+      "state_ut": "Lakshadweep",
+      "districts": [
+        {
+          "district_name": "Lakshadweep",
+          "total_schools": 45,
+          "total_students": 9500,
+          "total_teachers": 600,
+          "pupil_teacher_ratio": 15.8,
+          "electricity_access_percent": 100.0
+        }
+      ]
+    },
+    {
+      "state_ut": "Madhya Pradesh",
+      "districts": [
+        {
+          "district_name": "Indore",
+          "total_schools": 3200,
+          "total_students": 650000,
+          "total_teachers": 22000,
+          "pupil_teacher_ratio": 29.5,
+          "electricity_access_percent": 98.0
+        },
+        {
+          "district_name": "Bhopal",
+          "total_schools": 2400,
+          "total_students": 480000,
+          "total_teachers": 18000,
+          "pupil_teacher_ratio": 26.6,
+          "electricity_access_percent": 99.0
+        }
+      ]
+    },
+    {
+      "state_ut": "Maharashtra",
+      "districts": [
+        {
+          "district_name": "Mumbai City",
+          "total_schools": 1500,
+          "total_students": 600000,
+          "total_teachers": 25000,
+          "pupil_teacher_ratio": 24.0,
+          "electricity_access_percent": 100.0
+        },
+        {
+          "district_name": "Pune",
+          "total_schools": 4800,
+          "total_students": 1100000,
+          "total_teachers": 38000,
+          "pupil_teacher_ratio": 28.9,
+          "electricity_access_percent": 99.5
+        }
+      ]
+    },
+    {
+      "state_ut": "Manipur",
+      "districts": [
+        {
+          "district_name": "Imphal West",
+          "total_schools": 450,
+          "total_students": 110000,
+          "total_teachers": 5200,
+          "pupil_teacher_ratio": 21.1,
+          "electricity_access_percent": 92.0
+        }
+      ]
+    },
+    {
+      "state_ut": "Meghalaya",
+      "districts": [
+        {
+          "district_name": "East Khasi Hills",
+          "total_schools": 1800,
+          "total_students": 160000,
+          "total_teachers": 7500,
+          "pupil_teacher_ratio": 21.3,
+          "electricity_access_percent": 88.5
+        }
+      ]
+    },
+    {
+      "state_ut": "Mizoram",
+      "districts": [
+        {
+          "district_name": "Aizawl",
+          "total_schools": 650,
+          "total_students": 95000,
+          "total_teachers": 5800,
+          "pupil_teacher_ratio": 16.3,
+          "electricity_access_percent": 95.0
+        }
+      ]
+    },
+    {
+      "state_ut": "Nagaland",
+      "districts": [
+        {
+          "district_name": "Dimapur",
+          "total_schools": 420,
+          "total_students": 85000,
+          "total_teachers": 4500,
+          "pupil_teacher_ratio": 18.8,
+          "electricity_access_percent": 91.0
+        }
+      ]
+    },
+    {
+      "state_ut": "Odisha",
+      "districts": [
+        {
+          "district_name": "Khordha",
+          "total_schools": 2200,
+          "total_students": 380000,
+          "total_teachers": 15000,
+          "pupil_teacher_ratio": 25.3,
+          "electricity_access_percent": 96.0
+        },
+        {
+          "district_name": "Ganjam",
+          "total_schools": 3800,
+          "total_students": 450000,
+          "total_teachers": 16500,
+          "pupil_teacher_ratio": 27.2,
+          "electricity_access_percent": 91.5
+        }
+      ]
+    },
+    {
+      "state_ut": "Puducherry",
+      "districts": [
+        {
+          "district_name": "Puducherry",
+          "total_schools": 450,
+          "total_students": 140000,
+          "total_teachers": 7000,
+          "pupil_teacher_ratio": 20.0,
+          "electricity_access_percent": 100.0
+        }
+      ]
+    },
+    {
+      "state_ut": "Punjab",
+      "districts": [
+        {
+          "district_name": "Ludhiana",
+          "total_schools": 2400,
+          "total_students": 480000,
+          "total_teachers": 19000,
+          "pupil_teacher_ratio": 25.2,
+          "electricity_access_percent": 100.0
+        },
+        {
+          "district_name": "Amritsar",
+          "total_schools": 1600,
+          "total_students": 310000,
+          "total_teachers": 12500,
+          "pupil_teacher_ratio": 24.8,
+          "electricity_access_percent": 99.5
+        }
+      ]
+    },
+    {
+      "state_ut": "Rajasthan",
+      "districts": [
+        {
+          "district_name": "Jaipur",
+          "total_schools": 6500,
+          "total_students": 1100000,
+          "total_teachers": 42000,
+          "pupil_teacher_ratio": 26.1,
+          "electricity_access_percent": 98.0
+        },
+        {
+          "district_name": "Jodhpur",
+          "total_schools": 4200,
+          "total_students": 650000,
+          "total_teachers": 22000,
+          "pupil_teacher_ratio": 29.5,
+          "electricity_access_percent": 95.5
+        }
+      ]
+    },
+    {
+      "state_ut": "Sikkim",
+      "districts": [
+        {
+          "district_name": "East Sikkim",
+          "total_schools": 350,
+          "total_students": 55000,
+          "total_teachers": 4200,
+          "pupil_teacher_ratio": 13.0,
+          "electricity_access_percent": 98.0
+        }
+      ]
+    },
+    {
+      "state_ut": "Tamil Nadu",
+      "districts": [
+        {
+          "district_name": "Chennai",
+          "total_schools": 1800,
+          "total_students": 650000,
+          "total_teachers": 28000,
+          "pupil_teacher_ratio": 23.2,
+          "electricity_access_percent": 100.0
+        },
+        {
+          "district_name": "Coimbatore",
+          "total_schools": 2100,
+          "total_students": 420000,
+          "total_teachers": 18500,
+          "pupil_teacher_ratio": 22.7,
+          "electricity_access_percent": 100.0
+        }
+      ]
+    },
+    {
+      "state_ut": "Telangana",
+      "districts": [
+        {
+          "district_name": "Hyderabad",
+          "total_schools": 2800,
+          "total_students": 750000,
+          "total_teachers": 32000,
+          "pupil_teacher_ratio": 23.4,
+          "electricity_access_percent": 100.0
+        },
+        {
+          "district_name": "Ranga Reddy",
+          "total_schools": 3100,
+          "total_students": 620000,
+          "total_teachers": 25000,
+          "pupil_teacher_ratio": 24.8,
+          "electricity_access_percent": 99.0
+        }
+      ]
+    },
+    {
+      "state_ut": "Tripura",
+      "districts": [
+        {
+          "district_name": "West Tripura",
+          "total_schools": 850,
+          "total_students": 140000,
+          "total_teachers": 7200,
+          "pupil_teacher_ratio": 19.4,
+          "electricity_access_percent": 94.0
+        }
+      ]
+    },
+    {
+      "state_ut": "Uttar Pradesh",
+      "districts": [
+        {
+          "district_name": "Lucknow",
+          "total_schools": 3500,
+          "total_students": 850000,
+          "total_teachers": 28000,
+          "pupil_teacher_ratio": 30.3,
+          "electricity_access_percent": 98.5
+        },
+        {
+          "district_name": "Kanpur Nagar",
+          "total_schools": 2900,
+          "total_students": 650000,
+          "total_teachers": 21000,
+          "pupil_teacher_ratio": 30.9,
+          "electricity_access_percent": 97.0
+        },
+        {
+          "district_name": "Varanasi",
+          "total_schools": 2400,
+          "total_students": 580000,
+          "total_teachers": 18000,
+          "pupil_teacher_ratio": 32.2,
+          "electricity_access_percent": 96.5
+        }
+      ]
+    },
+    {
+      "state_ut": "Uttarakhand",
+      "districts": [
+        {
+          "district_name": "Dehradun",
+          "total_schools": 1800,
+          "total_students": 320000,
+          "total_teachers": 15000,
+          "pupil_teacher_ratio": 21.3,
+          "electricity_access_percent": 98.0
+        },
+        {
+          "district_name": "Haridwar",
+          "total_schools": 1500,
+          "total_students": 350000,
+          "total_teachers": 11000,
+          "pupil_teacher_ratio": 31.8,
+          "electricity_access_percent": 97.5
+        }
+      ]
+    },
+    {
+      "state_ut": "West Bengal",
+      "districts": [
+        {
+          "district_name": "Kolkata",
+          "total_schools": 2200,
+          "total_students": 650000,
+          "total_teachers": 26000,
+          "pupil_teacher_ratio": 25.0,
+          "electricity_access_percent": 100.0
+        },
+        {
+          "district_name": "North 24 Parganas",
+          "total_schools": 5800,
+          "total_students": 1200000,
+          "total_teachers": 35000,
+          "pupil_teacher_ratio": 34.2,
+          "electricity_access_percent": 98.0
+        },
+        {
+          "district_name": "Darjeeling",
+          "total_schools": 1500,
+          "total_students": 250000,
+          "total_teachers": 11000,
+          "pupil_teacher_ratio": 22.7,
+          "electricity_access_percent": 94.5
+        }
+      ]
+    }
+  ]
+}

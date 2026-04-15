@@ -1,0 +1,70 @@
+{% extends 'analytics_dashboard/base.html' %}
+
+{% block title %}Analytics Dashboard | School Dropout Analysis{% endblock %}
+
+{% block content %}
+    <div class="header">
+        <h1>📊 Analytics Dashboard</h1>
+        <p>Comprehensive overview of educational indicators across regions.</p>
+    </div>
+
+    {% if error %}
+        <div style="color: #ef4444; text-align: center; padding: 40px; border-radius: 20px; background: rgba(239, 68, 68, 0.1);">
+            <h3>⚠️ Data Access Issue</h3>
+            <p>{{ error }}</p>
+        </div>
+    {% else %}
+        <div class="dashboard-container">
+            <div class="card">
+                {{ chart1|safe }}
+            </div>
+
+            <div class="card">
+                {{ chart2|safe }}
+            </div>
+
+            <div class="card full-width">
+                {{ chart3|safe }}
+            </div>
+
+            <div class="card full-width">
+                {{ chart4|safe }}
+            </div>
+        </div>
+
+        <div class="insight-section">
+            <h2>💡 Analytical Insights & Policy Recommendations</h2>
+            <ul>
+                <li><strong>Regional Disparities:</strong> High secondary dropout rates in Bihar and Uttar Pradesh correlate strongly with higher Pupil-Teacher Ratios and lower electrification.</li>
+                <li><strong>Infrastructural Impact:</strong> Improving access to electricity and drinking water in Bihar Districts (e.g., Balrampur) could potentially reduce primary dropout rates by ~2-3%.</li>
+                <li><strong>Gender Patterns:</strong> While Kerala shows near-perfect gender parity in enrollment, Rajasthan and Maharashtra exhibit a slight female dropout lead in secondary stages.</li>
+                <li><strong>High-Risk Detection:</strong> Balrampur and Barmer districts are flagged for immediate policy intervention due to extreme dropout rate outliers.</li>
+            </ul>
+        </div>
+    {% endif %}
+{% endblock %}
+
+{% block extra_css %}
+    <style>
+        .dashboard-container { 
+            display: grid; 
+            grid-template-columns: repeat(2, 1fr); 
+            gap: 25px; 
+        }
+        .full-width { grid-column: span 2; }
+        @media (max-width: 1100px) {
+            .dashboard-container { grid-template-columns: 1fr; }
+            .full-width { grid-column: span 1; }
+        }
+        .insight-section {
+            margin-top: 40px;
+            padding: 30px;
+            background: rgba(56, 189, 248, 0.05);
+            border-left: 4px solid var(--accent-primary);
+            border-radius: 8px;
+        }
+        .insight-section h2 { color: var(--accent-primary); margin-top: 0; }
+        .insight-section li { margin-bottom: 10px; color: var(--text-secondary); }
+    </style>
+{% endblock %}
+

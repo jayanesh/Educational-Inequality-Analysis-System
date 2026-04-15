@@ -1,0 +1,160 @@
+{% extends 'analytics_dashboard/base.html' %}
+
+{% block title %}Sign Up | School Dropout Analysis{% endblock %}
+
+{% block content %}
+<div class="auth-wrapper">
+    <div class="auth-card">
+        <div class="auth-header">
+            <h2>✨ Join the Platform</h2>
+            <p>Create an account to start exploring educational trends</p>
+        </div>
+        
+        <form method="POST" class="auth-form">
+            {% csrf_token %}
+            
+            {% for field in form %}
+            <div class="form-group">
+                <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+                {{ field }}
+                {% if field.help_text %}
+                    <small class="help-text text-secondary">{{ field.help_text }}</small>
+                {% endif %}
+                {% if field.errors %}
+                    <div class="field-error">{{ field.errors.0 }}</div>
+                {% endif %}
+            </div>
+            {% endfor %}
+
+            <button type="submit" class="submit-btn" style="background: linear-gradient(90deg, var(--accent-secondary), var(--accent-primary))">Create My Account</button>
+        </form>
+
+        <div class="auth-footer">
+            <p>Already have an account? <a href="{% url 'login' %}">Log In Here</a></p>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+    .auth-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 80vh;
+        animation: fadeIn 1s ease-out;
+    }
+
+    .auth-card {
+        background: rgba(255, 255, 255, 0.03);
+        backdrop-filter: blur(20px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 50px;
+        border-radius: 30px;
+        width: 100%;
+        max-width: 500px;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+    }
+
+    .auth-header {
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    .auth-header h2 {
+        font-size: 2rem;
+        margin-bottom: 8px;
+        background: linear-gradient(90deg, var(--accent-secondary), var(--accent-primary));
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .auth-header p {
+        color: var(--text-secondary);
+        font-size: 0.95rem;
+    }
+
+    .form-group {
+        margin-bottom: 25px;
+    }
+
+    .form-group label {
+        display: block;
+        margin-bottom: 8px;
+        color: var(--text-primary);
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+
+    .form-group input {
+        width: 100%;
+        padding: 14px 20px;
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        color: white;
+        font-family: inherit;
+        font-size: 1rem;
+        outline: none;
+        box-sizing: border-box;
+        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .form-group input:focus {
+        border-color: var(--accent-secondary);
+        box-shadow: 0 0 0 4px rgba(129, 140, 248, 0.1);
+    }
+
+    .help-text {
+        font-size: 0.75rem;
+        color: var(--text-secondary);
+        display: block;
+        margin-top: 5px;
+    }
+
+    .submit-btn {
+        width: 100%;
+        padding: 16px;
+        background: linear-gradient(90deg, var(--accent-secondary), var(--accent-primary));
+        border: none;
+        border-radius: 12px;
+        color: white;
+        font-size: 1.1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        margin-top: 10px;
+    }
+
+    .submit-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 20px rgba(129, 140, 248, 0.3);
+    }
+
+    .auth-footer {
+        margin-top: 30px;
+        text-align: center;
+        color: var(--text-secondary);
+        font-size: 0.9rem;
+    }
+
+    .auth-footer a {
+        color: var(--accent-secondary);
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    .field-error {
+        color: #ef4444;
+        font-size: 0.8rem;
+        margin-top: 5px;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: scale(0.95); }
+        to { opacity: 1; transform: scale(1); }
+    }
+</style>
+{% endblock %}
